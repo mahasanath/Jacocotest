@@ -1,16 +1,15 @@
 package ca.on.oicr;
 
-import java.awt.color.ICC_Profile;
-
 public class FizzBuzz {
 
 	public String decide(int i) {
 		if (i == 3) {
 			return "FIZZ";
 		}
-		else {
+		else if (i == 5) {
 			return "BUZZ";
 		}
+		return "";
 	}
 
 }
