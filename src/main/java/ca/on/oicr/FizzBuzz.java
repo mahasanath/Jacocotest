@@ -1,5 +1,7 @@
 package ca.on.oicr;
 
+import java.awt.color.ICC_Profile;
+
 public class FizzBuzz {
 
 	public String decide(int i) {
