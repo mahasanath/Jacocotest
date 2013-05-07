@@ -16,16 +16,21 @@ public class FizzBuzzTest {
 
    @Test
    public void test_3_produces_FIZZ() {
-      assertEquals("FIZZ", sut.decide(3));
+      assertEquals(FizzBuzz.FIZZ, sut.decide(3));
    }
 
    @Test
    public void test_5_produces_BUZZ() {
-      assertEquals("BUZZ", sut.decide(5));
+      assertEquals(FizzBuzz.BUZZ, sut.decide(5));
    }
 
    @Test
    public void test_8_produces_empty_string() throws Exception {
       assertEquals("", sut.decide(8));
+   }
+
+   @Test
+   public void test_15_produces_FIZZBUZZ() throws Exception {
+      assertEquals("FIZZBUZZ", sut.decide(15));
    }
 }
