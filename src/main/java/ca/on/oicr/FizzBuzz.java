@@ -2,8 +2,8 @@ package ca.on.oicr;
 
 public class FizzBuzz {
 	
-	public static String FIZZ = "FIZZ";
-	public static String BUZZ = "BUZZ";
+	public static final String FIZZ = "FIZZ";
+	public static final String BUZZ = "BUZZ";
 
 	public String decide(int i) {
 		if (i == 3) {
